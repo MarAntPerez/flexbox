@@ -10,21 +10,26 @@ h1{
 
 .container{
     display: flex;
-    width: 1280px;
-    /* height: 500px; */
+    width: 980px;
+    height: 800px;
     margin: 0 auto;
     border: 2px solid red;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
     /* flex-flow: row wrap-reverse; */
 }
 
 .box{
-    width: 30%;
-    /* height: 140px; */
+    width: 140px;
+    height: 140px;
     margin: 0.5rem;
     text-align: center;
     color: white;
     font-size: 4rem;
 }
+
+/* .box:nth-child(odd){
+    line-height: 60px
+} */
