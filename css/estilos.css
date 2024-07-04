@@ -16,8 +16,9 @@ h1{
     border: 2px solid red;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
+    /* align-content: center; */
     /* flex-flow: row wrap-reverse; */
 }
 
@@ -28,6 +29,11 @@ h1{
     text-align: center;
     color: white;
     font-size: 4rem;
+}
+
+.resaltado{
+    align-self: flex-end;
+    /* height: auto; */
 }
 
 /* .box:nth-child(odd){
